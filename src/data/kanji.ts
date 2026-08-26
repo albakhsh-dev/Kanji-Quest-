@@ -16712,5 +16712,700 @@ export const validKanjiData: Kanji[] = [
     ],
     "level": "N2",
     "vocabulary": []
+  },
+
+  {
+    "kanji": "心",
+    "meanings": [
+      "heart",
+      "mind",
+      "spirit"
+    ],
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "こころ"
+    ],
+    "level": "N4",
+    "vocabulary": [
+      {
+        "word": "安心",
+        "reading": "あんしん",
+        "meaning": "peace of mind"
+      }
+    ]
+  },
+  {
+    "kanji": "思",
+    "meanings": [
+      "think"
+    ],
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "おも.う"
+    ],
+    "level": "N4",
+    "vocabulary": [
+      {
+        "word": "思い出す",
+        "reading": "おもいだす",
+        "meaning": "to recall"
+      }
+    ]
+  },
+  {
+    "kanji": "答",
+    "meanings": [
+      "answer"
+    ],
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "こた.える",
+      "こた.え"
+    ],
+    "level": "N4",
+    "vocabulary": [
+      {
+        "word": "答える",
+        "reading": "こたえる",
+        "meaning": "to answer"
+      }
+    ]
+  },
+  {
+    "kanji": "知",
+    "meanings": [
+      "know",
+      "wisdom"
+    ],
+    "onyomi": [
+      "チ"
+    ],
+    "kunyomi": [
+      "し.る"
+    ],
+    "level": "N4",
+    "vocabulary": [
+      {
+        "word": "知らせる",
+        "reading": "しらせる",
+        "meaning": "to notify"
+      }
+    ]
+  },
+  {
+    "kanji": "働",
+    "meanings": [
+      "work"
+    ],
+    "onyomi": [
+      "ドウ"
+    ],
+    "kunyomi": [
+      "はたら.く"
+    ],
+    "level": "N4",
+    "vocabulary": [
+      {
+        "word": "働く",
+        "reading": "はたらく",
+        "meaning": "to work"
+      }
+    ]
+  },
+  {
+    "kanji": "彼",
+    "meanings": [
+      "he",
+      "that",
+      "the"
+    ],
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [
+      "かれ",
+      "かの"
+    ],
+    "level": "N3",
+    "vocabulary": [
+      {
+        "word": "彼氏",
+        "reading": "かれし",
+        "meaning": "boyfriend"
+      }
+    ]
+  },
+  {
+    "kanji": "役",
+    "meanings": [
+      "duty",
+      "war",
+      "campaign"
+    ],
+    "onyomi": [
+      "ヤク",
+      "エキ"
+    ],
+    "kunyomi": [],
+    "level": "N3",
+    "vocabulary": [
+      {
+        "word": "役に立つ",
+        "reading": "やくにたつ",
+        "meaning": "to be helpful"
+      }
+    ]
+  },
+  {
+    "kanji": "美",
+    "meanings": [
+      "beauty",
+      "beautiful"
+    ],
+    "onyomi": [
+      "ビ",
+      "ミ"
+    ],
+    "kunyomi": [
+      "うつく.しい"
+    ],
+    "level": "N3",
+    "vocabulary": [
+      {
+        "word": "美しい",
+        "reading": "うつくしい",
+        "meaning": "beautiful"
+      }
+    ]
+  },
+  {
+    "kanji": "悲",
+    "meanings": [
+      "sad",
+      "grieve"
+    ],
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [
+      "かな.しい",
+      "かな.しむ"
+    ],
+    "level": "N3",
+    "vocabulary": [
+      {
+        "word": "悲しい",
+        "reading": "かなしい",
+        "meaning": "sad"
+      }
+    ]
+  },
+  {
+    "kanji": "笑",
+    "meanings": [
+      "laugh"
+    ],
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "わら.う",
+      "え.む"
+    ],
+    "level": "N3",
+    "vocabulary": [
+      {
+        "word": "笑う",
+        "reading": "わらう",
+        "meaning": "to laugh"
+      }
+    ]
+  },
+  {
+    "kanji": "感",
+    "meanings": [
+      "emotion",
+      "feel",
+      "sensation"
+    ],
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [],
+    "level": "N2",
+    "vocabulary": [
+      {
+        "word": "感動",
+        "reading": "かんどう",
+        "meaning": "being deeply moved"
+      }
+    ]
+  },
+  {
+    "kanji": "想",
+    "meanings": [
+      "concept",
+      "think",
+      "idea"
+    ],
+    "onyomi": [
+      "ソウ",
+      "ソ"
+    ],
+    "kunyomi": [
+      "おも.う"
+    ],
+    "level": "N2",
+    "vocabulary": [
+      {
+        "word": "想像",
+        "reading": "そうぞう",
+        "meaning": "imagination"
+      }
+    ]
+  },
+  {
+    "kanji": "愛",
+    "meanings": [
+      "love",
+      "affection"
+    ],
+    "onyomi": [
+      "アイ"
+    ],
+    "kunyomi": [
+      "いと.しい"
+    ],
+    "level": "N2",
+    "vocabulary": [
+      {
+        "word": "愛情",
+        "reading": "あいじょう",
+        "meaning": "love, affection"
+      }
+    ]
+  },
+  {
+    "kanji": "信",
+    "meanings": [
+      "faith",
+      "truth",
+      "fidelity"
+    ],
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [],
+    "level": "N2",
+    "vocabulary": [
+      {
+        "word": "信じる",
+        "reading": "しんじる",
+        "meaning": "to believe"
+      }
+    ]
+  },
+  {
+    "kanji": "望",
+    "meanings": [
+      "ambition",
+      "full moon",
+      "hope"
+    ],
+    "onyomi": [
+      "ボウ",
+      "モウ"
+    ],
+    "kunyomi": [
+      "のぞ.む",
+      "もち"
+    ],
+    "level": "N2",
+    "vocabulary": [
+      {
+        "word": "希望",
+        "reading": "きぼう",
+        "meaning": "hope"
+      }
+    ]
+  },
+  {
+    "kanji": "犬",
+    "meanings": [
+      "dog"
+    ],
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "いぬ"
+    ],
+    "level": "N5",
+    "vocabulary": [
+      {
+        "word": "犬",
+        "reading": "いぬ",
+        "meaning": "dog"
+      }
+    ]
+  },
+  {
+    "kanji": "猫",
+    "meanings": [
+      "cat"
+    ],
+    "onyomi": [
+      "ビョウ"
+    ],
+    "kunyomi": [
+      "ねこ"
+    ],
+    "level": "N4",
+    "vocabulary": [
+      {
+        "word": "猫",
+        "reading": "ねこ",
+        "meaning": "cat"
+      }
+    ]
+  },
+
+  {
+    "kanji": "星",
+    "meanings": [
+      "star"
+    ],
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ほし"
+    ],
+    "level": "N4",
+    "vocabulary": [
+      {
+        "word": "星",
+        "reading": "ほし",
+        "meaning": "star"
+      }
+    ]
+  },
+  {
+    "kanji": "雪",
+    "meanings": [
+      "snow"
+    ],
+    "onyomi": [
+      "セツ"
+    ],
+    "kunyomi": [
+      "ゆき"
+    ],
+    "level": "N5",
+    "vocabulary": [
+      {
+        "word": "雪",
+        "reading": "ゆき",
+        "meaning": "snow"
+      }
+    ]
+  },
+  {
+    "kanji": "雲",
+    "meanings": [
+      "cloud"
+    ],
+    "onyomi": [
+      "ウン"
+    ],
+    "kunyomi": [
+      "くも"
+    ],
+    "level": "N4",
+    "vocabulary": [
+      {
+        "word": "雲",
+        "reading": "くも",
+        "meaning": "cloud"
+      }
+    ]
+  },
+  {
+    "kanji": "晴",
+    "meanings": [
+      "clear up"
+    ],
+    "onyomi": [
+      "セイ"
+    ],
+    "kunyomi": [
+      "は.れる",
+      "は.れ"
+    ],
+    "level": "N4",
+    "vocabulary": [
+      {
+        "word": "晴れ",
+        "reading": "はれ",
+        "meaning": "clear weather"
+      }
+    ]
+  },
+  {
+    "kanji": "風",
+    "meanings": [
+      "wind",
+      "air",
+      "style"
+    ],
+    "onyomi": [
+      "フウ",
+      "フ"
+    ],
+    "kunyomi": [
+      "かぜ",
+      "かざ"
+    ],
+    "level": "N4",
+    "vocabulary": [
+      {
+        "word": "風",
+        "reading": "かぜ",
+        "meaning": "wind"
+      }
+    ]
+  },
+  {
+    "kanji": "飛",
+    "meanings": [
+      "fly",
+      "skip"
+    ],
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [
+      "と.ぶ",
+      "と.ばす"
+    ],
+    "level": "N3",
+    "vocabulary": [
+      {
+        "word": "飛行機",
+        "reading": "ひこうき",
+        "meaning": "airplane"
+      }
+    ]
+  },
+  {
+    "kanji": "鳴",
+    "meanings": [
+      "chirp",
+      "cry",
+      "bark",
+      "sound"
+    ],
+    "onyomi": [
+      "メイ"
+    ],
+    "kunyomi": [
+      "な.く",
+      "な.る"
+    ],
+    "level": "N3",
+    "vocabulary": [
+      {
+        "word": "鳴く",
+        "reading": "なく",
+        "meaning": "to chirp / cry"
+      }
+    ]
+  },
+  {
+    "kanji": "交",
+    "meanings": [
+      "mingle",
+      "mixing",
+      "association"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "まじ.わる",
+      "ま.ざる"
+    ],
+    "level": "N3",
+    "vocabulary": [
+      {
+        "word": "交差点",
+        "reading": "こうさてん",
+        "meaning": "intersection"
+      }
+    ]
+  },
+  {
+    "kanji": "流",
+    "meanings": [
+      "current",
+      "a sink",
+      "flow"
+    ],
+    "onyomi": [
+      "リュウ",
+      "ル"
+    ],
+    "kunyomi": [
+      "なが.れる",
+      "なが.す"
+    ],
+    "level": "N3",
+    "vocabulary": [
+      {
+        "word": "流れる",
+        "reading": "ながれる",
+        "meaning": "to flow"
+      }
+    ]
+  },
+  {
+    "kanji": "消",
+    "meanings": [
+      "extinguish",
+      "blow out",
+      "turn off"
+    ],
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "き.える",
+      "け.す"
+    ],
+    "level": "N3",
+    "vocabulary": [
+      {
+        "word": "消す",
+        "reading": "けす",
+        "meaning": "to erase / turn off"
+      }
+    ]
+  },
+  {
+    "kanji": "防",
+    "meanings": [
+      "ward off",
+      "defend",
+      "protect"
+    ],
+    "onyomi": [
+      "ボウ"
+    ],
+    "kunyomi": [
+      "ふせ.ぐ"
+    ],
+    "level": "N2",
+    "vocabulary": [
+      {
+        "word": "予防",
+        "reading": "よぼう",
+        "meaning": "prevention"
+      }
+    ]
+  },
+  {
+    "kanji": "規",
+    "meanings": [
+      "standard",
+      "measure"
+    ],
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [],
+    "level": "N2",
+    "vocabulary": [
+      {
+        "word": "規則",
+        "reading": "きそく",
+        "meaning": "rule"
+      }
+    ]
+  },
+  {
+    "kanji": "則",
+    "meanings": [
+      "rule",
+      "follow",
+      "based on"
+    ],
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "のっと.る"
+    ],
+    "level": "N2",
+    "vocabulary": [
+      {
+        "word": "原則",
+        "reading": "げんそく",
+        "meaning": "principle"
+      }
+    ]
+  },
+  {
+    "kanji": "備",
+    "meanings": [
+      "equip",
+      "provision",
+      "preparation"
+    ],
+    "onyomi": [
+      "ビ"
+    ],
+    "kunyomi": [
+      "そな.える",
+      "そな.わる"
+    ],
+    "level": "N2",
+    "vocabulary": [
+      {
+        "word": "準備",
+        "reading": "じゅんび",
+        "meaning": "preparation"
+      }
+    ]
+  },
+  {
+    "kanji": "増",
+    "meanings": [
+      "increase",
+      "add"
+    ],
+    "onyomi": [
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "ま.す",
+      "ふ.える",
+      "ふ.やす"
+    ],
+    "level": "N2",
+    "vocabulary": [
+      {
+        "word": "増加",
+        "reading": "ぞうか",
+        "meaning": "increase"
+      }
+    ]
   }
+
 ];
