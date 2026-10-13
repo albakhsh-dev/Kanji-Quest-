@@ -3,10 +3,21 @@ import { useParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { validKanjiData, Kanji } from '../data/kanji';
 import { Button } from '../components/ui/Button';
+import { ChromeOrbit } from '../components/ui/chrome-orbit';
+import { useUserStore } from '../store/userStore';
 
 export default function Flashcards() {
   const { level } = useParams<{ level: string }>();
+  const { progress } = useUserStore();
   const [isFlipped, setIsFlipped] = useState(false);
+
+  const levelColorsMap: Record<string, [string, string]> = {
+    N5: ['#38BDF8', '#6366F1'],
+    N4: ['#34D399', '#059669'],
+    N3: ['#FBBF24', '#D97706'],
+    N2: ['#F43F5E', '#BE123C'],
+  };
+  const levelColors = (level && levelColorsMap[level]) || ['#C52828', '#F59E0B'];
   
   // SRS-lite State
   const [deck, setDeck] = useState<Kanji[]>([]);
@@ -106,9 +117,29 @@ export default function Flashcards() {
           >
             {!isFlipped ? (
               // Front
-              <span className="text-9xl font-japanese font-bold text-theme-text">
-                {currentCard.kanji}
-              </span>
+              <div className="relative w-full h-full flex items-center justify-center">
+                <div className="absolute inset-0 pointer-events-none opacity-90 flex items-center justify-center">
+                  <ChromeOrbit
+                    colors={levelColors}
+                    studio={progress.theme === 'dark' ? 'dark' : 'light'}
+                    rings={3}
+                    size={0.88}
+                    spacing={0.09}
+                    bandWidth={0.075}
+                    bandThickness={0.016}
+                    roughness={0.16}
+                    iridescence={0.3}
+                    speed={0.65}
+                    tilt={16}
+                    haloTilt={42}
+                    interactive={false}
+                    className="w-full h-full"
+                  />
+                </div>
+                <span className="relative z-10 text-8xl md:text-9xl font-japanese font-bold text-theme-text select-none drop-shadow-sm">
+                  {currentCard.kanji}
+                </span>
+              </div>
             ) : (
               // Back
               <div className="text-center w-full">
